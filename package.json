@@ -2,9 +2,9 @@
   "name": "@jwalsh/ingress-glyphs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/ingress.js",
   "scripts": {
-    "test": "test.js"
+    "test": "test/index.js"
   },
   "author": "Jason Walsh <j@wal.sh>",
   "license": "MIT",
