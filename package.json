@@ -1,0 +1,23 @@
+{
+  "name": "@jwalsh/ingress-glyphs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "author": "Jason Walsh <j@wal.sh>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "broccoli": "^0.16.9",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "bower": "^1.7.7",
+    "csv-parse": "^1.0.1",
+    "escodegen": "^1.8.0",
+    "esprima": "^2.7.2",
+    "install": "^0.4.2"
+  }
+}
