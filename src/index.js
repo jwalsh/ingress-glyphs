@@ -71,11 +71,11 @@ const glyphsParser = parse({}, (err, data) => {
       sequences: sequences
     };
     // console.log(result);
-    let code = 'exports.ingress = ';
+    let code = 'exports = ';
     code += JSON.stringify(result);
     const parsed = esprima.parse(code);
     const generated = escodegen.generate(parsed);
-    const wstream = fs.createWriteStream(`${__dirname}/dist/ingress.js`);
+    const wstream = fs.createWriteStream(`${__dirname}/../dist/ingress.js`);
     wstream.write(generated);
     wstream.end();
     console.log('dist/ingress.js');
@@ -83,6 +83,6 @@ const glyphsParser = parse({}, (err, data) => {
 
 
 
-  fs.createReadStream(`${__dirname}/data/glyphs.csv`).pipe(glyphsParser);
-  fs.createReadStream(`${__dirname}/data/aliases.csv`).pipe(aliasesParser);
-  fs.createReadStream(`${__dirname}/data/sequences.csv`).pipe(sequencesParser);
+fs.createReadStream(`${__dirname}/../data/glyphs.csv`).pipe(glyphsParser);
+fs.createReadStream(`${__dirname}/../data/aliases.csv`).pipe(aliasesParser);
+fs.createReadStream(`${__dirname}/../data/sequences.csv`).pipe(sequencesParser);
