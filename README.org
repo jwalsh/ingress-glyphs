@@ -1,0 +1,37 @@
+* Background
+
+This provides a list of canonical names for each of the core glyphs used
+in glyph hacking sequences that can be consumed without dedencies.
+
+* Installation
+
+#+BEGIN_SRC shell-command
+npm install
+npm build
+npm test
+
+#+END_SRC
+
+This runs code coverage against the unit tests and creates the ES4
+module that can be consumed by Browserify.
+
+* Usage
+
+** node
+
+#+BEGIN_SRC javascript
+var ingress = require('@jwalsh/ingress-glyphs').ingress;
+
+console.log('Glyphs: ', Object.keys(ingress.glyphs).length);
+console.log('Aliases: ', Object.keys(ingress.aliases).length);
+console.log('Sequences: ', Object.keys(ingress.sequences).length);
+
+#+END_SRC
+
+* Data
+
+This pulls in data from:
+
+- https://github.com/ento/ingress-shaper-glyphs/tree/master/src
+- http://glyphtionary.com/
+- http://www.ingress.tv/5-glyph-hack-sequences.html
