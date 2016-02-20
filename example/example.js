@@ -1,12 +1,11 @@
 var Canvas = require('canvas'),
     Image = Canvas.Image,
+    size = 40,
     canvas = new Canvas(size, size),
     ctx = canvas.getContext('2d');
 var fs = require('fs');
 
-var ingress = require('../dist/ingress');
-
-// Glyphs follow
+var ingress = require('../dist/ingress').ingress;
 
 // Layout
 
@@ -18,13 +17,10 @@ var ingress = require('../dist/ingress');
 //  [4, ,  , ,2],
 //  [ , , 3, , ]]
 
-
-// size
-var size = 40;
 // center
 var c = { t: size / 2, l: size / 2 };
 // radius
-var r = c.t / 1.2;
+var r = size / 2.8;
 
 // positions
 var positions = [];
@@ -46,11 +42,14 @@ positions[8] = [c.l - w / 2, c.t + h / 2];
 
 console.log(positions);
 
-
+// globals: size, ctx
 var render = function(glyph) {
-  // console.log(example)
+  console.log(glyph);
+  ctx.beginPath();
   ctx.fillStyle = 'white';
+  ctx.strokeStyle = 'rgba(0,0,0,0.2)';
   ctx.fillRect(0, 0, size, size);
+  ctx.lineWidth = 2;
   ctx.beginPath();
 
   // Partition into the two nodes
@@ -68,10 +67,21 @@ var render = function(glyph) {
 };
 
 // Abandon
-render({
-  'canonical': 'abandon',
-  'name': 'Abandon',
-  'code': '1634486a8a',
-  'aliases': [],
-  'sequences': 0
+// render({
+//   'canonical': 'abandon',
+//   'name': 'Abandon',
+//   'code': '1634486a8a',
+//   'aliases': [],
+//   'sequences': 0
+// });
+
+var html = '';
+console.log(ingress.glyphs);
+Object.keys(ingress.glyphs).map(function(e, i, c) {
+  var glyph = ingress.glyphs[e];
+  render(glyph);
+  html += '<img src="' + glyph.canonical + '.png" title="' +
+    glyph.canonical + '" />';
 });
+
+fs.writeFile('public/example.html', html);
