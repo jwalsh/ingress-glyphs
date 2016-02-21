@@ -581,7 +581,7 @@ exports.ingress = {
             'name': 'Not',
             'code': '6769',
             'aliases': ['inside'],
-            'sequences': 21
+            'sequences': 29
         },
         'nourish': {
             'canonical': 'nourish',
@@ -664,11 +664,8 @@ exports.ingress = {
             'canonical': 'present',
             'name': 'Present',
             'code': '677889',
-            'aliases': [
-                'not',
-                'now'
-            ],
-            'sequences': 37
+            'aliases': ['now'],
+            'sequences': 29
         },
         'pure': {
             'canonical': 'pure',
@@ -956,7 +953,6 @@ exports.ingress = {
         'me': 'i',
         'message': 'data',
         'modify': 'change',
-        'not': 'present',
         'now': 'present',
         'obstacle': 'barrier',
         'open': 'accept',

@@ -105,35 +105,3 @@ Object.keys(ingress.glyphs).map(function(e, i, c) {
 
 console.log('public/example.html');
 fs.writeFile('public/example.html', html);
-
-// console.log(ingress.sequences);
-var seqorg = [1, 2, 3, 4, 5]
-      .map(function(e, i, c) {
-        return '\n* ' + e + '' + '\n' +
-          ingress
-          .sequences
-          .filter(function(a) {
-            return a.length === e;
-          })
-          .map(function(e, i, c) {
-            // console.log(e);
-            h = '| ';
-            h += e.join(' ');
-            h += ' | ';
-            h += e.reduce(function(a, b) {
-              if (ingress.aliases[b]) {
-                // console.log('INFO', b, '=', ingress.aliases[b]);
-                b = ingress.aliases[b];
-              }
-              return a + '[[./public/' + b +  '.png]]';
-            }, '');
-            h += ' |';
-            // console.log(h);
-            return h;
-          })
-          .join('\n');
-      })
-      .join(' ');
-
-console.log('sequences.org');
-fs.writeFile('sequences.org', seqorg);
