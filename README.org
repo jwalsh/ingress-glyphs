@@ -30,6 +30,8 @@ console.log('Sequences: ', Object.keys(ingress.sequences).length);
 
 * Example 
 
+** Glyphs
+
 [[./example/public/abandon.png]]
 [[./example/public/accept.png]]
 [[./example/public/adapt.png]]
@@ -161,6 +163,19 @@ console.log('Sequences: ', Object.keys(ingress.sequences).length);
 [[./example/public/worth.png]]
 [[./example/public/xm.png]]
 [[./example/public/you.png]]
+
+** Sequences 
+
+| grow unbounded create new future | [[./example/public/grow.png]][[./example/public/unbounded.png]][[./example/public/create.png]][[./example/public/new.png]][[./example/public/future.png]] |
+| create pure future human civilization | [[./example/public/create.png]][[./example/public/pure.png]][[./example/public/future.png]][[./example/public/human.png]][[./example/public/civilization.png]] |
+| courage destroy shapers portal together | [[./example/public/courage.png]][[./example/public/destroy.png]][[./example/public/shapers.png]][[./example/public/portal.png]][[./example/public/together.png]] |
+| human shapers together create destiny | [[./example/public/human.png]][[./example/public/shapers.png]][[./example/public/together.png]][[./example/public/create.png]][[./example/public/destiny.png]] |
+| create new future see all | [[./example/public/create.png]][[./example/public/new.png]][[./example/public/future.png]][[./example/public/see.png]][[./example/public/all.png]] |
+| repair present repair human soul | [[./example/public/recharge.png]][[./example/public/present.png]][[./example/public/recharge.png]][[./example/public/human.png]][[./example/public/soul.png]] |
+| change separate past end journey | [[./example/public/change.png]][[./example/public/separate.png]][[./example/public/past.png]][[./example/public/end.png]][[./example/public/journey.png]] |
+| stay strong together defend resistance | [[./example/public/stay.png]][[./example/public/strong.png]][[./example/public/together.png]][[./example/public/defend.png]][[./example/public/resist.png]] |
+| forget attack see outside harmony | [[./example/public/forget.png]][[./example/public/attack.png]][[./example/public/see.png]][[./example/public/outside.png]][[./example/public/harmony.png]] |
+| lose shapers message gain chaos | [[./example/public/lose.png]][[./example/public/shapers.png]][[./example/public/data.png]][[./example/public/gain.png]][[./example/public/chaos.png]] |
 
 
 * Data
