@@ -1,11 +1,11 @@
 var Canvas = require('canvas'),
     Image = Canvas.Image,
-    size = 50,
-    canvas = new Canvas(size, size),
-    ctx = canvas.getContext('2d');
+    size = 32;
 var fs = require('fs');
 
 var ingress = require('../dist/ingress').ingress;
+
+// console.log(ingress);
 
 // Layout
 
@@ -45,12 +45,17 @@ positions[8] = [c.l - w / 2, c.t + h / 2];
 // globals: size, ctx
 var render = function(glyph) {
   // console.log(glyph);
+  var canvas = new Canvas(size, size);
+  var ctx = canvas.getContext('2d');
+
   // Base
   ctx.beginPath();
+  ctx.globalAlpha = 0;
   ctx.fillStyle = 'white';
   ctx.strokeStyle = 'rgba(0,0,0.1,0.05)';
   ctx.fillRect(0, 0, size, size);
   // Border
+  ctx.globalAlpha = .9;
   ctx.lineWidth = 1;
   ctx.beginPath();
   for (var i = 0; i <= 4; i++) {
@@ -89,7 +94,7 @@ var render = function(glyph) {
 //   'sequences': 0
 // });
 
-var html = '';
+var html = '<body bgcolor="red">';
 // console.log(ingress.glyphs);
 Object.keys(ingress.glyphs).map(function(e, i, c) {
   var glyph = ingress.glyphs[e];
@@ -98,25 +103,35 @@ Object.keys(ingress.glyphs).map(function(e, i, c) {
     glyph.canonical + '" />';
 });
 
+console.log('public/example.html');
 fs.writeFile('public/example.html', html);
 
 // console.log(ingress.sequences);
-ingress.sequences
-  .filter(function(e, i, c) {
-    return e.length === 5;
-  })
-  .map(function(e, i, c) {
-    // console.log(e);
-    h = '| ';
-    h += e.join(' ')
-    h += ' | ';
-    h += e.reduce(function(a, b) {
-      if (ingress.aliases[b]) {
-        // console.log('INFO', b, '=', ingress.aliases[b]);
-        b = ingress.aliases[b];
-      }
-      return a + '[[./example/public/' + b +  '.png]]';
-    }, '');
-    h += ' |';
-    console.log(h);
-});
+var seqorg = [1, 2, 3, 4, 5]
+      .map(function(e, i, c) {
+        return ingress
+          .sequences
+          .filter(function(a) {
+            return a.length === e;
+          })
+          .map(function(e, i, c) {
+            // console.log(e);
+            h = '| ';
+            h += e.join(' ');
+            h += ' | ';
+            h += e.reduce(function(a, b) {
+              if (ingress.aliases[b]) {
+                // console.log('INFO', b, '=', ingress.aliases[b]);
+                b = ingress.aliases[b];
+              }
+              return a + '[[./public/' + b +  '.png]]';
+            }, '');
+            h += ' |';
+            // console.log(h);
+            return h;
+          });
+      })
+      .join(' ');
+
+console.log('sequences.org');
+fs.writeFile('sequences.org', seqorg);
