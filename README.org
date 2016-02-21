@@ -28,6 +28,16 @@ console.log('Sequences: ', Object.keys(ingress.sequences).length);
 
 #+END_SRC
 
+** web 
+
+#+BEGIN_SRC html
+<script src="http://p.wal.sh/ingress/ingress.js"></script>
+<script>
+  console.log(ingress);
+</script>
+
+#+END_SRC
+
 * Example 
 
 ** Glyphs
