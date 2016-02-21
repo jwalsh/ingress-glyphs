@@ -48,12 +48,12 @@ var render = function(glyph) {
   // Base
   ctx.beginPath();
   ctx.fillStyle = 'white';
-  ctx.strokeStyle = 'rgba(0,0,0,0.1)';
+  ctx.strokeStyle = 'rgba(0,0,0.1,0.1)';
   ctx.fillRect(0, 0, size, size);
   // Border
   ctx.lineWidth = 1;
   ctx.beginPath();
-  for (var i = 0; i <= 5; i++) {
+  for (var i = 0; i <= 4; i++) {
     ctx.moveTo(positions[i][0], positions[i][1]);
     ctx.lineTo(positions[i + 1][0], positions[i + 1][1]);
   }
