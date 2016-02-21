@@ -1,6 +1,6 @@
 var Canvas = require('canvas'),
     Image = Canvas.Image,
-    size = 40,
+    size = 50,
     canvas = new Canvas(size, size),
     ctx = canvas.getContext('2d');
 var fs = require('fs');
@@ -48,7 +48,7 @@ var render = function(glyph) {
   // Base
   ctx.beginPath();
   ctx.fillStyle = 'white';
-  ctx.strokeStyle = 'rgba(0,0,0.1,0.1)';
+  ctx.strokeStyle = 'rgba(0,0,0.1,0.05)';
   ctx.fillRect(0, 0, size, size);
   // Border
   ctx.lineWidth = 1;
@@ -59,6 +59,7 @@ var render = function(glyph) {
   }
   ctx.moveTo(positions[5][0], positions[5][1]);
   ctx.lineTo(positions[0][0], positions[0][1]);
+
   ctx.stroke();
   // Glyph
   ctx.strokeStyle = 'rgba(0,0,0,0.3)';
