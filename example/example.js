@@ -109,7 +109,8 @@ fs.writeFile('public/example.html', html);
 // console.log(ingress.sequences);
 var seqorg = [1, 2, 3, 4, 5]
       .map(function(e, i, c) {
-        return ingress
+        return '\n* ' + e + '' + '\n' +
+          ingress
           .sequences
           .filter(function(a) {
             return a.length === e;
@@ -129,7 +130,8 @@ var seqorg = [1, 2, 3, 4, 5]
             h += ' |';
             // console.log(h);
             return h;
-          });
+          })
+          .join('\n');
       })
       .join(' ');
 
