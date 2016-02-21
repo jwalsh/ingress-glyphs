@@ -20,7 +20,7 @@ var ingress = require('../dist/ingress').ingress;
 // center
 var c = { t: size / 2, l: size / 2 };
 // radius
-var r = size / 2.8;
+var r = size / 2.;
 
 // positions
 var positions = [];
@@ -40,15 +40,28 @@ positions[6] = [c.l + w / 2, c.t - h / 2,];
 positions[7] = [c.l + w / 2, c.t + h / 2];
 positions[8] = [c.l - w / 2, c.t + h / 2];
 
-console.log(positions);
+// console.log(positions);
 
 // globals: size, ctx
 var render = function(glyph) {
-  console.log(glyph);
+  // console.log(glyph);
+  // Base
   ctx.beginPath();
   ctx.fillStyle = 'white';
-  ctx.strokeStyle = 'rgba(0,0,0,0.2)';
+  ctx.strokeStyle = 'rgba(0,0,0,0.1)';
   ctx.fillRect(0, 0, size, size);
+  // Border
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  for (var i = 0; i <= 5; i++) {
+    ctx.moveTo(positions[i][0], positions[i][1]);
+    ctx.lineTo(positions[i + 1][0], positions[i + 1][1]);
+  }
+  ctx.moveTo(positions[5][0], positions[5][1]);
+  ctx.lineTo(positions[0][0], positions[0][1]);
+  ctx.stroke();
+  // Glyph
+  ctx.strokeStyle = 'rgba(0,0,0,0.3)';
   ctx.lineWidth = 2;
   ctx.beginPath();
 
@@ -58,8 +71,8 @@ var render = function(glyph) {
     var start = parseInt(code[i].split('')[0], 16);
     var end = parseInt(code[i].split('')[1], 16);
     ctx.beginPath();
-    ctx.moveTo(positions[start][0] + 4, positions[start][1] - 4);
-    ctx.lineTo(positions[end][0] + 4, positions[end][1] - 4);
+    ctx.moveTo(positions[start][0], positions[start][1]);
+    ctx.lineTo(positions[end][0], positions[end][1]);
     ctx.stroke();
   }
   // fs.writeFile('example.png', canvas.toBuffer());
@@ -76,7 +89,7 @@ var render = function(glyph) {
 // });
 
 var html = '';
-console.log(ingress.glyphs);
+// console.log(ingress.glyphs);
 Object.keys(ingress.glyphs).map(function(e, i, c) {
   var glyph = ingress.glyphs[e];
   render(glyph);
@@ -85,3 +98,24 @@ Object.keys(ingress.glyphs).map(function(e, i, c) {
 });
 
 fs.writeFile('public/example.html', html);
+
+// console.log(ingress.sequences);
+ingress.sequences
+  .filter(function(e, i, c) {
+    return e.length === 5;
+  })
+  .map(function(e, i, c) {
+    // console.log(e);
+    h = '| ';
+    h += e.join(' ')
+    h += ' | ';
+    h += e.reduce(function(a, b) {
+      if (ingress.aliases[b]) {
+        // console.log('INFO', b, '=', ingress.aliases[b]);
+        b = ingress.aliases[b];
+      }
+      return a + '[[./example/public/' + b +  '.png]]';
+    }, '');
+    h += ' |';
+    console.log(h);
+});
