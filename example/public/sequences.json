@@ -1,0 +1,2074 @@
+{
+  "accept": {
+    "human": {
+      "weak": 0
+    }
+  },
+  "advance": {
+    "$": 0,
+    "civilization": {
+      "pursue": {
+        "shapers": {
+          "path": 0,
+          "truth": 0
+        }
+      },
+      "repeat": {
+        "failure": 0
+      }
+    },
+    "enlightenment": 0,
+    "future": {
+      "not": {
+        "war": 0
+      }
+    },
+    "human": {
+      "enlightenment": 0,
+      "resistance": 0
+    },
+    "pure": {
+      "truth": 0
+    }
+  },
+  "again": {
+    "$": 0,
+    "journey": {
+      "outside": 0
+    }
+  },
+  "all": {
+    "$": 0,
+    "chaos": {
+      "$": 0,
+      "inside": {
+        "body": 0
+      }
+    },
+    "civilization": {
+      "chaos": 0
+    },
+    "xm": {
+      "liberate": 0
+    }
+  },
+  "answer": {
+    "$": 0,
+    "question": {
+      "discover": {
+        "difficult": {
+          "truth": 0
+        }
+      }
+    },
+    "repeat": {
+      "struggle": 0
+    }
+  },
+  "attack": {
+    "$": 0,
+    "chaos": 0,
+    "civilization": {
+      "repeat": {
+        "failure": 0
+      }
+    },
+    "create": {
+      "danger": 0
+    },
+    "destroy": {
+      "future": 0
+    },
+    "difficult": {
+      "$": 0,
+      "future": 0
+    },
+    "enlightenment": {
+      "pursue": {
+        "resistance": 0
+      }
+    },
+    "future": {
+      "change": {
+        "destiny": 0
+      }
+    },
+    "human": {
+      "civilization": {
+        "xm": {
+          "message": 0
+        }
+      }
+    },
+    "pure": {
+      "future": {
+        "human": {
+          "civilization": 0
+        },
+        "inside": {
+          "war": 0
+        }
+      }
+    },
+    "resistance": {
+      "pursue": {
+        "enlightenment": 0
+      }
+    },
+    "separate": {
+      "path": {
+        "end": {
+          "journey": 0
+        }
+      }
+    },
+    "shapers": {
+      "chaos": 0,
+      "evolution": 0,
+      "portal": 0
+    },
+    "weak": {
+      "shapers": {
+        "lie": 0
+      }
+    }
+  },
+  "avoid": {
+    "$": 0,
+    "attack": {
+      "chaos": 0
+    },
+    "chaos": {
+      "avoid": {
+        "shapers": {
+          "lie": 0
+        }
+      },
+      "repair": {
+        "potential": {
+          "war": 0
+        }
+      },
+      "soul": 0
+    },
+    "complex": {
+      "conflict": 0,
+      "soul": 0
+    },
+    "conflict": 0,
+    "destiny": {
+      "lie": 0
+    },
+    "impure": {
+      "evolution": 0
+    },
+    "perfection": {
+      "human": {
+        "self": 0
+      },
+      "stability": {
+        "human": {
+          "self": 0
+        }
+      },
+      "stay": {
+        "human": {
+          "self": 0
+        }
+      }
+    },
+    "pure": {
+      "chaos": 0
+    },
+    "war": {
+      "chaos": 0
+    },
+    "xm": {
+      "message": {
+        "lie": 0
+      }
+    }
+  },
+  "balance": 0,
+  "barrier": 0,
+  "body": 0,
+  "breathe": {
+    "$": 0,
+    "again": {
+      "journey": {
+        "again": 0
+      }
+    },
+    "inside": {
+      "lose": {
+        "self": 0
+      },
+      "xm": {
+        "lose": {
+          "self": 0
+        }
+      }
+    },
+    "nature": {
+      "perfection": {
+        "harmony": 0
+      }
+    }
+  },
+  "capture": {
+    "$": 0,
+    "fear": {
+      "discover": {
+        "courage": 0
+      }
+    },
+    "portal": {
+      "$": 0,
+      "defend": {
+        "portal": {
+          "courage": 0
+        }
+      }
+    },
+    "shapers": {
+      "portal": 0
+    },
+    "xm": {
+      "portal": 0
+    }
+  },
+  "change": {
+    "$": 0,
+    "body": {
+      "improve": {
+        "human": 0
+      }
+    },
+    "future": {
+      "capture": {
+        "destiny": 0
+      }
+    },
+    "human": {
+      "future": 0,
+      "potential": {
+        "use": 0
+      }
+    },
+    "present": 0,
+    "separate": {
+      "past": {
+        "end": {
+          "journey": 0
+        }
+      }
+    },
+    "simple": {
+      "human": {
+        "future": 0
+      }
+    }
+  },
+  "chaos": {
+    "$": 0,
+    "attack": {
+      "conflict": {
+        "discover": {
+          "harmony": 0
+        }
+      }
+    },
+    "barrier": {
+      "shapers": {
+        "portal": 0
+      }
+    },
+    "destroy": {
+      "shapers": {
+        "portal": 0
+      }
+    },
+    "perfection": {
+      "stability": {
+        "human": {
+          "self": 0
+        }
+      }
+    },
+    "war": {
+      "conflict": {
+        "discover": {
+          "peace": 0
+        }
+      }
+    }
+  },
+  "civilization": {
+    "$": 0,
+    "chaos": 0,
+    "die": {
+      "new": {
+        "civilization": {
+          "begin": 0
+        }
+      }
+    },
+    "war": {
+      "chaos": 0
+    }
+  },
+  "clear": {
+    "$": 0,
+    "mind": {
+      "liberate": {
+        "barrier": {
+          "body": 0
+        }
+      },
+      "open": {
+        "mind": 0
+      }
+    }
+  },
+  "clear_all": {
+    "idea": {
+      "past": {
+        "present": {
+          "future": 0
+        }
+      }
+    },
+    "mind": {
+      "liberate": {
+        "barrier": {
+          "body": 0
+        }
+      }
+    },
+    "open": {
+      "mind": {
+        "begin": 0
+      }
+    },
+    "open_all": {
+      "discover": {
+        "truth": 0
+      }
+    },
+    "thought": {
+      "past": {
+        "present": {
+          "future": 0
+        }
+      }
+    }
+  },
+  "complex": {
+    "$": 0,
+    "journey": {
+      "future": 0
+    },
+    "shapers": {
+      "civilization": {
+        "strong": 0
+      }
+    }
+  },
+  "conflict": 0,
+  "contemplate": {
+    "$": 0,
+    "complex": {
+      "shapers": {
+        "civilization": 0,
+        "truth": 0
+      }
+    },
+    "future": {
+      "not": {
+        "shapers": {
+          "path": 0
+        }
+      }
+    },
+    "journey": {
+      "outside": 0
+    },
+    "potential": {
+      "balance": 0,
+      "journey": 0,
+      "perfection": 0
+    },
+    "restraint": {
+      "discover": {
+        "more": {
+          "courage": 0
+        }
+      }
+    },
+    "self": {
+      "path": {
+        "truth": 0
+      }
+    }
+  },
+  "courage": {
+    "$": 0,
+    "attack": {
+      "shapers": {
+        "future": 0,
+        "portal": {
+          "together": 0
+        }
+      }
+    },
+    "destiny": {
+      "future": 0,
+      "rebel": 0
+    },
+    "destroy": {
+      "shapers": {
+        "portal": {
+          "together": 0
+        }
+      }
+    },
+    "war": {
+      "shapers": {
+        "future": 0
+      }
+    }
+  },
+  "create": {
+    "$": 0,
+    "danger": 0,
+    "distance": {
+      "impure": {
+        "path": 0
+      }
+    },
+    "future": {
+      "change": {
+        "destiny": 0
+      },
+      "inside": {
+        "war": 0
+      },
+      "journey": 0,
+      "not": {
+        "war": 0
+      }
+    },
+    "new": {
+      "future": {
+        "$": 0,
+        "see": {
+          "all": 0
+        }
+      }
+    },
+    "outside": {
+      "impure": {
+        "path": 0
+      }
+    },
+    "pure": {
+      "future": {
+        "human": {
+          "civilization": 0
+        },
+        "not": {
+          "war": 0
+        }
+      }
+    },
+    "separate": {
+      "path": {
+        "end": {
+          "journey": 0
+        }
+      }
+    }
+  },
+  "danger": {
+    "$": 0,
+    "change": {
+      "past": 0
+    }
+  },
+  "data": 0,
+  "defend": {
+    "$": 0,
+    "destiny": {
+      "defend": {
+        "human": {
+          "civilization": 0
+        }
+      }
+    },
+    "human": {
+      "civilization": {
+        "portal": {
+          "data": 0,
+          "message": 0
+        },
+        "shapers": {
+          "lie": 0,
+          "portal": 0
+        },
+        "xm": {
+          "message": 0
+        }
+      }
+    },
+    "message": {
+      "answer": {
+        "idea": 0
+      }
+    },
+    "seek": {
+      "safety": 0
+    }
+  },
+  "destiny": 0,
+  "destroy": {
+    "$": 0,
+    "civilization": {
+      "danger": 0,
+      "end": {
+        "conflict": {
+          "war": 0
+        }
+      },
+      "now": {
+        "conflict": {
+          "war": 0
+        }
+      }
+    },
+    "complex": {
+      "shapers": {
+        "lie": 0
+      }
+    },
+    "destiny": {
+      "barrier": 0,
+      "human": {
+        "lie": 0
+      }
+    },
+    "difficult": {
+      "barrier": 0
+    },
+    "impure": {
+      "truth": 0
+    },
+    "lie": {
+      "inside": {
+        "gain": {
+          "soul": 0
+        }
+      }
+    },
+    "weak": {
+      "civilization": 0
+    }
+  },
+  "deteriorate": {
+    "$": 0,
+    "advance": {
+      "present": 0
+    },
+    "human": {
+      "weak": {
+        "rebel": 0
+      }
+    }
+  },
+  "die": 0,
+  "difficult": 0,
+  "discover": {
+    "$": 0,
+    "harmony": {
+      "equal": 0
+    },
+    "lie": 0,
+    "perfection": {
+      "safety": {
+        "all": 0
+      }
+    },
+    "portal": {
+      "$": 0,
+      "truth": 0
+    },
+    "pure": {
+      "truth": 0
+    },
+    "resistance": {
+      "truth": 0
+    },
+    "safety": {
+      "$": 0,
+      "civilization": 0
+    },
+    "shapers": {
+      "civilization": 0,
+      "enlightenment": 0,
+      "lie": 0,
+      "message": 0
+    }
+  },
+  "distance": {
+    "$": 0,
+    "self": {
+      "avoid": {
+        "human": {
+          "lie": 0
+        }
+      }
+    },
+    "your": {
+      "mind": {
+        "more": 0
+      }
+    }
+  },
+  "easy": {
+    "$": 0,
+    "past": {
+      "future": {
+        "follow": {
+          "shapers": 0
+        }
+      }
+    },
+    "path": {
+      "future": {
+        "follow": {
+          "shapers": 0
+        }
+      }
+    }
+  },
+  "end": {
+    "$": 0,
+    "journey": {
+      "discover": {
+        "destiny": 0
+      }
+    },
+    "old": {
+      "civilization": {
+        "create": {
+          "new": 0
+        }
+      }
+    }
+  },
+  "enlightenment": 0,
+  "equal": 0,
+  "escape": {
+    "$": 0,
+    "body": {
+      "journey": {
+        "distance": {
+          "present": 0
+        },
+        "outside": {
+          "now": 0,
+          "present": 0
+        }
+      },
+      "mind": {
+        "self": {
+          "want": 0
+        }
+      }
+    },
+    "evolution": 0,
+    "impure": {
+      "evolution": 0,
+      "future": 0,
+      "truth": 0
+    },
+    "portal": {
+      "harm": 0
+    },
+    "shapers": {
+      "harm": 0,
+      "harmony": 0
+    },
+    "simple": {
+      "human": {
+        "future": 0
+      }
+    },
+    "together": 0
+  },
+  "evolution": 0,
+  "failure": 0,
+  "fear": {
+    "$": 0,
+    "chaos": {
+      "xm": 0
+    },
+    "complex": {
+      "xm": 0
+    }
+  },
+  "follow": {
+    "$": 0,
+    "journey": 0,
+    "pure": {
+      "journey": 0
+    },
+    "shapers": {
+      "portal": {
+        "message": 0
+      }
+    }
+  },
+  "forget": {
+    "$": 0,
+    "attack": {
+      "see": {
+        "outside": {
+          "harmony": 0
+        }
+      }
+    },
+    "conflict": {
+      "accept": {
+        "war": 0
+      }
+    },
+    "past": {
+      "see": {
+        "present": {
+          "danger": 0
+        }
+      }
+    },
+    "war": {
+      "gain": {
+        "outside": {
+          "harmony": 0
+        }
+      },
+      "see": {
+        "distance": {
+          "harmony": 0
+        }
+      }
+    }
+  },
+  "future": {
+    "$": 0,
+    "equal": {
+      "past": 0
+    }
+  },
+  "gain": {
+    "$": 0,
+    "civilization": {
+      "peace": 0
+    },
+    "future": {
+      "escape": 0
+    },
+    "portal": {
+      "attack": {
+        "weak": 0
+      }
+    },
+    "safety": 0,
+    "truth": {
+      "open": {
+        "human": {
+          "soul": 0
+        }
+      }
+    }
+  },
+  "grow": {
+    "unbounded": {
+      "create": {
+        "new": {
+          "future": 0
+        }
+      }
+    }
+  },
+  "harm": {
+    "$": 0,
+    "danger": {
+      "avoid": 0
+    },
+    "progress": {
+      "pursue": {
+        "more": {
+          "war": 0
+        }
+      }
+    }
+  },
+  "harmony": {
+    "$": 0,
+    "path": {
+      "nourish": {
+        "present": 0
+      }
+    },
+    "stability": {
+      "future": 0
+    }
+  },
+  "have": 0,
+  "help": {
+    "$": 0,
+    "enlightenment": {
+      "capture": {
+        "all": {
+          "portal": 0
+        }
+      }
+    },
+    "gain": {
+      "create": {
+        "pursue": 0
+      }
+    },
+    "human": {
+      "civilization": {
+        "pursue": {
+          "destiny": 0
+        }
+      }
+    },
+    "resistance": {
+      "capture": {
+        "all": {
+          "portal": 0
+        }
+      }
+    },
+    "shapers": {
+      "create": {
+        "future": 0
+      }
+    }
+  },
+  "hide": {
+    "$": 0,
+    "impure": {
+      "human": {
+        "thought": 0
+      }
+    },
+    "journey": {
+      "truth": 0
+    },
+    "path": {
+      "future": 0
+    },
+    "resistance": {
+      "advance": {
+        "strong": {
+          "together": 0
+        }
+      }
+    },
+    "struggle": {
+      "advance": {
+        "strong": {
+          "together": 0
+        }
+      }
+    },
+    "truth": 0
+  },
+  "human": {
+    "$": 0,
+    "escape": {
+      "all": 0
+    },
+    "evolution": {
+      "unbounded": 0
+    },
+    "failure": {
+      "unbounded": 0
+    },
+    "gain": {
+      "safety": 0
+    },
+    "have": {
+      "impure": {
+        "civilization": 0
+      }
+    },
+    "intelligence": {
+      "unbounded": 0
+    },
+    "not": {
+      "together": {
+        "civilization": {
+          "deteriorate": 0
+        }
+      }
+    },
+    "past": {
+      "present": {
+        "future": 0
+      }
+    },
+    "shapers": {
+      "together": {
+        "create": {
+          "destiny": 0
+        }
+      }
+    },
+    "soul": {
+      "strong": {
+        "pure": 0
+      }
+    }
+  },
+  "idea": 0,
+  "ignore": {
+    "$": 0,
+    "human": {
+      "chaos": {
+        "lie": 0
+      }
+    }
+  },
+  "imperfect": {
+    "$": 0,
+    "truth": {
+      "accept": {
+        "complex": {
+          "answer": 0
+        }
+      },
+      "open": {
+        "complex": {
+          "answer": 0
+        }
+      }
+    },
+    "xm": {
+      "message": {
+        "human": {
+          "chaos": 0
+        }
+      }
+    }
+  },
+  "improve": {
+    "$": 0,
+    "advance": {
+      "present": 0
+    },
+    "body": {
+      "mind": {
+        "soul": 0
+      },
+      "pursue": {
+        "journey": 0
+      }
+    },
+    "future": {
+      "together": 0
+    },
+    "human": {
+      "shapers": 0
+    },
+    "mind": {
+      "body": {
+        "inside": 0
+      },
+      "improve": {
+        "courage": {
+          "change": 0
+        }
+      },
+      "journey": {
+        "inside": 0
+      }
+    }
+  },
+  "impure": 0,
+  "inside": {
+    "$": 0,
+    "mind": {
+      "future": 0,
+      "inside": {
+        "soul": {
+          "harmony": 0
+        }
+      },
+      "journey": {
+        "perfection": 0
+      },
+      "soul": {
+        "harmony": 0
+      }
+    },
+    "xm": {
+      "truth": 0
+    }
+  },
+  "journey": {
+    "$": 0,
+    "inside": {
+      "improve": {
+        "soul": 0
+      },
+      "soul": 0
+    }
+  },
+  "lead": {
+    "$": 0,
+    "body": {
+      "mind": {
+        "soul": 0
+      }
+    },
+    "enlightenment": {
+      "$": 0,
+      "civilization": 0
+    },
+    "pursue": {
+      "react": {
+        "defend": 0
+      }
+    },
+    "resistance": {
+      "question": 0
+    }
+  },
+  "less": {
+    "$": 0,
+    "chaos": {
+      "more": {
+        "stability": 0
+      }
+    },
+    "mind": {
+      "more": {
+        "soul": 0
+      }
+    },
+    "soul": {
+      "more": {
+        "mind": 0
+      }
+    },
+    "truth": {
+      "more": {
+        "chaos": 0
+      }
+    }
+  },
+  "liberate": {
+    "$": 0,
+    "human": {
+      "future": 0
+    },
+    "portal": {
+      "liberate": {
+        "human": {
+          "mind": 0
+        }
+      },
+      "potential": 0
+    },
+    "self": {
+      "liberate": {
+        "human": {
+          "civilization": 0
+        }
+      }
+    },
+    "xm": {
+      "$": 0,
+      "portal": {
+        "together": 0
+      }
+    }
+  },
+  "lie": 0,
+  "live": {
+    "$": 0,
+    "again": {
+      "journey": {
+        "again": 0
+      }
+    },
+    "inside": {
+      "xm": {
+        "lose": {
+          "self": 0
+        }
+      }
+    },
+    "nature": {
+      "balance": {
+        "harmony": 0
+      },
+      "perfection": {
+        "harmony": 0
+      }
+    }
+  },
+  "lose": {
+    "$": 0,
+    "attack": {
+      "retreat": 0
+    },
+    "danger": {
+      "gain": {
+        "safety": 0
+      }
+    },
+    "shapers": {
+      "message": {
+        "gain": {
+          "chaos": 0
+        }
+      }
+    },
+    "war": {
+      "retreat": 0
+    }
+  },
+  "message": 0,
+  "mind": {
+    "$": 0,
+    "body": {
+      "live": 0,
+      "soul": {
+        "pure": {
+          "human": 0
+        }
+      }
+    },
+    "equal": {
+      "truth": 0
+    },
+    "open": {
+      "live": 0
+    }
+  },
+  "more": {
+    "$": 0,
+    "data": {
+      "gain": {
+        "portal": {
+          "advance": 0
+        }
+      }
+    },
+    "mind": {
+      "less": {
+        "spirit": 0
+      }
+    }
+  },
+  "nature": {
+    "$": 0,
+    "pure": {
+      "defend": 0
+    }
+  },
+  "new": 0,
+  "not": {
+    "$": 0,
+    "mind": {
+      "journey": {
+        "perfection": 0
+      }
+    }
+  },
+  "nourish": {
+    "$": 0,
+    "journey": 0,
+    "mind": {
+      "journey": 0
+    },
+    "xm": {
+      "create": {
+        "thought": 0
+      },
+      "portal": 0
+    }
+  },
+  "now": 0,
+  "old": {
+    "$": 0,
+    "nature": {
+      "less": {
+        "strong": {
+          "now": 0
+        }
+      }
+    }
+  },
+  "open": {
+    "$": 0,
+    "chaos": {
+      "inside": {
+        "body": 0
+      }
+    },
+    "human": {
+      "weak": 0
+    }
+  },
+  "open_all": {
+    "$": 0,
+    "clear_all": {
+      "discover": {
+        "truth": 0
+      }
+    },
+    "portal": {
+      "$": 0,
+      "success": 0
+    },
+    "simple": {
+      "truth": 0
+    },
+    "truth": 0
+  },
+  "outside": 0,
+  "past": {
+    "$": 0,
+    "again": {
+      "present": {
+        "again": 0
+      }
+    },
+    "barrier": {
+      "create": {
+        "future": {
+          "journey": 0
+        }
+      }
+    },
+    "chaos": {
+      "create": {
+        "future": {
+          "harmony": 0
+        }
+      }
+    },
+    "equal": {
+      "future": 0
+    },
+    "harmony": {
+      "difficult": 0
+    },
+    "path": {
+      "create": {
+        "future": {
+          "journey": 0
+        }
+      }
+    },
+    "peace": {
+      "difficult": 0
+    },
+    "present": {
+      "future": 0
+    }
+  },
+  "path": {
+    "$": 0,
+    "harmony": {
+      "difficult": 0
+    },
+    "peace": {
+      "$": 0,
+      "difficult": 0
+    },
+    "perfection": 0,
+    "restraint": {
+      "strong": {
+        "safety": 0
+      }
+    }
+  },
+  "peace": {
+    "$": 0,
+    "path": {
+      "nourish": {
+        "future": 0,
+        "present": 0
+      }
+    },
+    "simple": {
+      "journey": 0
+    },
+    "stability": {
+      "future": 0
+    }
+  },
+  "perfection": {
+    "$": 0,
+    "balance": {
+      "safety": {
+        "all": 0
+      }
+    },
+    "past": {
+      "peace": 0
+    },
+    "path": {
+      "peace": 0
+    }
+  },
+  "portal": {
+    "$": 0,
+    "attack": {
+      "danger": {
+        "pursue": {
+          "safety": 0
+        }
+      }
+    },
+    "barrier": {
+      "defend": {
+        "human": {
+          "shapers": 0
+        }
+      }
+    },
+    "change": {
+      "civilization": {
+        "end": 0
+      }
+    },
+    "create": {
+      "danger": {
+        "pursue": {
+          "safety": 0
+        }
+      }
+    },
+    "die": {
+      "civilization": {
+        "die": 0
+      }
+    },
+    "have": {
+      "truth": {
+        "data": 0
+      }
+    },
+    "improve": {
+      "human": {
+        "future": {
+          "civilization": 0
+        }
+      }
+    },
+    "potential": {
+      "change": {
+        "future": 0
+      },
+      "help": {
+        "human": {
+          "future": 0
+        }
+      }
+    }
+  },
+  "potential": {
+    "$": 0,
+    "truth": {
+      "harmony": 0
+    },
+    "xm": {
+      "attack": 0,
+      "harmony": 0,
+      "peace": 0,
+      "war": 0
+    }
+  },
+  "present": {
+    "$": 0,
+    "chaos": {
+      "create": {
+        "future": {
+          "civilization": 0
+        }
+      }
+    },
+    "mind": {
+      "journey": {
+        "perfection": 0
+      }
+    }
+  },
+  "pure": {
+    "$": 0,
+    "body": 0,
+    "human": {
+      "$": 0,
+      "failure": {
+        "now": {
+          "chaos": 0
+        }
+      }
+    },
+    "truth": 0
+  },
+  "pursue": {
+    "$": 0,
+    "complex": {
+      "truth": 0
+    },
+    "conflict": {
+      "advance": {
+        "war": {
+          "chaos": 0
+        }
+      },
+      "attack": {
+        "advance": {
+          "chaos": 0
+        }
+      },
+      "war": {
+        "advance": {
+          "chaos": 0
+        }
+      }
+    },
+    "path": {
+      "outside": {
+        "shapers": {
+          "lie": 0
+        }
+      }
+    },
+    "pure": {
+      "body": 0
+    },
+    "truth": 0,
+    "xm": 0
+  },
+  "question": {
+    "$": 0,
+    "all": 0,
+    "conflict": {
+      "data": 0
+    },
+    "hide": {
+      "truth": 0
+    },
+    "human": {
+      "civilization": {
+        "destroy": {
+          "portal": 0
+        }
+      },
+      "truth": 0
+    },
+    "less": {
+      "forget": {
+        "all": {
+          "lie": 0
+        }
+      }
+    },
+    "shapers": {
+      "chaos": 0
+    },
+    "truth": {
+      "$": 0,
+      "gain": {
+        "future": 0
+      }
+    },
+    "war": 0,
+    "your": {
+      "impure": {
+        "civilization": 0
+      }
+    }
+  },
+  "react": {
+    "$": 0,
+    "impure": {
+      "civilization": 0
+    },
+    "pure": {
+      "truth": 0
+    },
+    "rebel": {
+      "question": {
+        "shapers": {
+          "lie": 0
+        }
+      }
+    }
+  },
+  "rebel": {
+    "$": 0,
+    "idea": {
+      "evolution": {
+        "destiny": {
+          "harmony": 0
+        }
+      },
+      "success": {
+        "destiny": {
+          "now": 0
+        }
+      }
+    },
+    "thought": {
+      "evolution": {
+        "destiny": {
+          "now": 0
+        }
+      }
+    }
+  },
+  "recharge": {
+    "$": 0,
+    "present": {
+      "recharge": {
+        "human": {
+          "soul": 0
+        }
+      }
+    }
+  },
+  "repair": {
+    "$": 0,
+    "inside": {
+      "repair": {
+        "human": {
+          "soul": 0
+        }
+      }
+    },
+    "nature": {
+      "balance": 0
+    },
+    "present": {
+      "repair": {
+        "human": {
+          "soul": 0
+        }
+      }
+    },
+    "soul": {
+      "less": {
+        "human": {
+          "harm": 0
+        }
+      }
+    }
+  },
+  "repeat": {
+    "journey": {
+      "outside": 0
+    }
+  },
+  "resistance": {
+    "$": 0,
+    "defend": {
+      "shapers": {
+        "danger": 0
+      }
+    }
+  },
+  "restraint": {
+    "fear": {
+      "avoid": {
+        "danger": 0
+      }
+    },
+    "path": {
+      "gain": {
+        "harmony": 0
+      }
+    }
+  },
+  "retreat": {
+    "$": 0,
+    "search": {
+      "safety": 0
+    },
+    "seek": {
+      "safety": 0
+    }
+  },
+  "safety": 0,
+  "save": {
+    "$": 0,
+    "human": {
+      "civilization": {
+        "destroy": {
+          "portal": 0
+        }
+      },
+      "potential": {
+        "use": 0
+      }
+    }
+  },
+  "search": {
+    "$": 0,
+    "data": {
+      "discover": {
+        "path": 0
+      }
+    },
+    "destiny": {
+      "create": {
+        "pure": {
+          "future": 0
+        }
+      }
+    },
+    "past": 0,
+    "potential": 0,
+    "truth": {
+      "save": {
+        "civilization": 0
+      }
+    },
+    "xm": {
+      "portal": 0,
+      "save": {
+        "portal": 0
+      }
+    }
+  },
+  "see": {
+    "$": 0,
+    "truth": {
+      "now": 0,
+      "see": {
+        "future": 0
+      }
+    }
+  },
+  "seek": {
+    "data": {
+      "discover": {
+        "path": 0
+      }
+    },
+    "destiny": {
+      "create": {
+        "pure": {
+          "future": 0
+        }
+      }
+    },
+    "message": {
+      "discover": {
+        "path": 0
+      }
+    },
+    "potential": 0,
+    "signal": {
+      "discover": {
+        "path": 0
+      }
+    },
+    "truth": {
+      "see": {
+        "future": 0
+      }
+    },
+    "xm": {
+      "portal": 0,
+      "save": {
+        "portal": 0
+      }
+    }
+  },
+  "self": 0,
+  "separate": {
+    "future": {
+      "evolution": 0,
+      "pursue": 0
+    },
+    "mind": {
+      "body": {
+        "discover": {
+          "enlightenment": 0
+        }
+      }
+    },
+    "truth": {
+      "lie": {
+        "shapers": {
+          "future": 0
+        }
+      }
+    },
+    "weak": {
+      "ignore": {
+        "truth": 0
+      }
+    }
+  },
+  "shapers": {
+    "$": 0,
+    "avoid": {
+      "pure": {
+        "thought": 0
+      }
+    },
+    "chaos": {
+      "pure": {
+        "harm": 0
+      }
+    },
+    "gain": {
+      "potential": {
+        "evolution": 0
+      }
+    },
+    "have": {
+      "strong": {
+        "path": 0
+      }
+    },
+    "lead": {
+      "human": {
+        "complex": {
+          "journey": 0
+        }
+      }
+    },
+    "lose": {
+      "potential": {
+        "evolution": 0
+      }
+    },
+    "message": {
+      "end": {
+        "civilization": 0
+      }
+    },
+    "mind": {
+      "complex": {
+        "harmony": 0
+      }
+    },
+    "past": {
+      "present": {
+        "future": 0
+      }
+    },
+    "portal": {
+      "data": {
+        "create": {
+          "chaos": 0
+        }
+      },
+      "message": {
+        "create": {
+          "chaos": 0
+        },
+        "destroy": {
+          "civilization": 0
+        }
+      },
+      "mind": {
+        "restraint": 0
+      }
+    },
+    "see": {
+      "complex": {
+        "path": {
+          "destiny": 0
+        }
+      },
+      "potential": {
+        "evolution": 0
+      }
+    },
+    "want": {
+      "human": {
+        "mind": {
+          "future": 0
+        }
+      }
+    }
+  },
+  "simple": {
+    "$": 0,
+    "civilization": {
+      "impure": {
+        "weak": 0
+      }
+    },
+    "message": {
+      "complex": {
+        "idea": 0
+      }
+    },
+    "old": {
+      "truth": {
+        "journey": {
+          "inside": 0
+        }
+      }
+    },
+    "truth": {
+      "breathe": {
+        "nature": 0
+      },
+      "forget": {
+        "easy": {
+          "success": 0
+        }
+      },
+      "live": {
+        "nature": 0
+      },
+      "shapers": {
+        "destroy": {
+          "civilization": 0
+        }
+      }
+    }
+  },
+  "soul": {
+    "$": 0,
+    "rebel": {
+      "human": {
+        "die": 0
+      }
+    }
+  },
+  "stability": {
+    "$": 0,
+    "pure": {
+      "live": {
+        "knowledge": 0
+      }
+    }
+  },
+  "stay": {
+    "$": 0,
+    "strong": {
+      "together": {
+        "defend": {
+          "resistance": 0
+        }
+      }
+    },
+    "together": {
+      "defend": {
+        "truth": 0
+      }
+    }
+  },
+  "strong": {
+    "$": 0,
+    "idea": {
+      "pursue": {
+        "truth": 0
+      }
+    },
+    "mind": 0,
+    "resistance": {
+      "capture": {
+        "portal": 0
+      }
+    },
+    "soul": 0,
+    "together": {
+      "attack": {
+        "together": {
+          "chaos": 0,
+          "destiny": 0
+        }
+      },
+      "avoid": {
+        "war": 0
+      },
+      "war": {
+        "together": {
+          "chaos": 0,
+          "destiny": 0
+        }
+      }
+    }
+  },
+  "struggle": {
+    "$": 0,
+    "defend": {
+      "shapers": {
+        "danger": 0
+      }
+    },
+    "improve": {
+      "human": {
+        "soul": 0
+      }
+    }
+  },
+  "success": 0,
+  "technology": {
+    "intelligence": {
+      "grow": {
+        "unbounded": 0
+      },
+      "see": {
+        "all": {
+          "$": 0,
+          "unbounded": 0
+        }
+      }
+    }
+  },
+  "together": {
+    "$": 0,
+    "discover": {
+      "harmony": {
+        "equal": 0
+      }
+    },
+    "pure": {
+      "journey": 0
+    },
+    "pursue": {
+      "safety": 0
+    }
+  },
+  "truth": {
+    "$": 0,
+    "idea": {
+      "discover": {
+        "xm": 0
+      }
+    },
+    "nourish": {
+      "soul": 0
+    }
+  },
+  "use": {
+    "$": 0,
+    "mind": {
+      "use": {
+        "courage": {
+          "change": 0
+        }
+      }
+    },
+    "restraint": {
+      "follow": {
+        "easy": {
+          "path": 0
+        }
+      }
+    },
+    "us": {
+      "create": {
+        "shapers": {
+          "knowledge": 0
+        }
+      },
+      "follow": {
+        "us": 0
+      }
+    }
+  },
+  "want": {
+    "$": 0,
+    "truth": {
+      "now": 0,
+      "pursue": {
+        "difficult": {
+          "path": 0
+        }
+      }
+    },
+    "xm": {
+      "now": 0
+    }
+  },
+  "war": {
+    "$": 0,
+    "attack": {
+      "chaos": 0
+    },
+    "create": {
+      "danger": 0
+    },
+    "destroy": {
+      "future": 0
+    }
+  },
+  "weak": {
+    "$": 0,
+    "human": {
+      "destiny": {
+        "destroy": {
+          "civilization": 0
+        }
+      }
+    }
+  },
+  "xm": {
+    "$": 0,
+    "create": {
+      "complex": {
+        "human": {
+          "destiny": 0
+        }
+      }
+    },
+    "die": {
+      "chaos": {
+        "live": 0
+      }
+    },
+    "have": {
+      "mind": {
+        "harmony": 0,
+        "journey": 0
+      }
+    },
+    "nourish": {
+      "civilization": 0
+    },
+    "past": {
+      "future": {
+        "destiny": {
+          "harmony": 0
+        }
+      }
+    },
+    "path": {
+      "future": {
+        "destiny": {
+          "harmony": 0
+        },
+        "journey": {
+          "harmony": 0
+        }
+      }
+    }
+  },
+  "your": {
+    "destiny": {
+      "not": {
+        "easy": 0
+      }
+    }
+  }
+}

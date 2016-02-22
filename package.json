@@ -1,6 +1,6 @@
 {
-  "name": "@jwalsh/ingress-glyphs",
-  "version": "1.0.5",
+  "name": "ingress-glyphs",
+  "version": "1.0.0",
   "description": "Data source for Ingress glyphs and sequences",
   "main": "dist/ingress.js",
   "scripts": {
