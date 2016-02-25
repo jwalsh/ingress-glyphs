@@ -1,4 +1,4 @@
-exports.ingress = {
+module.exports = {
     'glyphs': {
         'abandon': {
             'canonical': 'abandon',
@@ -152,7 +152,7 @@ exports.ingress = {
             'name': 'Clear All',
             'code': '01050a1223343a45',
             'aliases': [],
-            'sequences': 6
+            'sequences': 7
         },
         'complex': {
             'canonical': 'complex',
@@ -745,7 +745,7 @@ exports.ingress = {
             'name': 'Restraint',
             'code': '2327597a9a',
             'aliases': [],
-            'sequences': 6
+            'sequences': 7
         },
         'retreat': {
             'canonical': 'retreat',
@@ -794,7 +794,7 @@ exports.ingress = {
             'name': 'Separate',
             'code': '2759676a898a',
             'aliases': [],
-            'sequences': 8
+            'sequences': 9
         },
         'shaper_human': {
             'canonical': 'shaper_human',
@@ -1413,6 +1413,7 @@ exports.ingress = {
             'open',
             'mind'
         ],
+        ['clear_all'],
         [
             'clear_all',
             'idea',
@@ -3001,6 +3002,7 @@ exports.ingress = {
             'shapers',
             'danger'
         ],
+        ['restraint'],
         [
             'restraint',
             'fear',
@@ -3137,6 +3139,7 @@ exports.ingress = {
             'portal'
         ],
         ['self'],
+        ['separate'],
         [
             'separate',
             'future',

@@ -1,6 +1,6 @@
 var IngressGlyphs = require('../dist/ingress');
 var fs = require('fs');
-var sequences = IngressGlyphs.ingress.sequences;
+var sequences = IngressGlyphs.sequences;
 
 var table = {};
 
@@ -18,6 +18,7 @@ for (var i = 0; i < sequences.length; i++) {
       m = [sequence];
     }
     table[key] = m;
+    console.log('CODE:', key, sequence);
   }
 }
 // console.log(table);

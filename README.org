@@ -20,7 +20,7 @@ module that can be consumed by Browserify.
 ** node
 
 #+BEGIN_SRC javascript
-var ingress = require('@jwalsh/ingress-glyphs').ingress;
+var ingress = require('@jwalsh/ingress-glyphs');
 
 console.log('Glyphs: ', Object.keys(ingress.glyphs).length);
 console.log('Aliases: ', Object.keys(ingress.aliases).length);
@@ -28,7 +28,7 @@ console.log('Sequences: ', Object.keys(ingress.sequences).length);
 
 #+END_SRC
 
-** web 
+** web
 
 #+BEGIN_SRC html
 <script src="http://p.wal.sh/ingress/ingress.js"></script>
@@ -38,7 +38,7 @@ console.log('Sequences: ', Object.keys(ingress.sequences).length);
 
 #+END_SRC
 
-* Example 
+* Example
 
 ** Glyphs
 
@@ -174,7 +174,7 @@ console.log('Sequences: ', Object.keys(ingress.sequences).length);
 [[./example/public/xm.png]]
 [[./example/public/you.png]]
 
-** Sequences 
+** Sequences
 
 | harm progress pursue more war | [[./example/public/harm.png]][[./example/public/evolution.png]][[./example/public/pursue.png]][[./example/public/more.png]][[./example/public/attack.png]] |
 | liberate portal liberate human mind | [[./example/public/liberate.png]][[./example/public/portal.png]][[./example/public/liberate.png]][[./example/public/human.png]][[./example/public/mind.png]] |
@@ -186,7 +186,6 @@ console.log('Sequences: ', Object.keys(ingress.sequences).length);
 | stay strong together defend resistance | [[./example/public/stay.png]][[./example/public/strong.png]][[./example/public/together.png]][[./example/public/defend.png]][[./example/public/resist.png]] |
 | repair inside repair human soul | [[./example/public/recharge.png]][[./example/public/not.png]][[./example/public/recharge.png]][[./example/public/human.png]][[./example/public/soul.png]] |
 | avoid chaos repair potential war | [[./example/public/avoid.png]][[./example/public/chaos.png]][[./example/public/recharge.png]][[./example/public/potential.png]][[./example/public/attack.png]] |
-
 
 * Data
 

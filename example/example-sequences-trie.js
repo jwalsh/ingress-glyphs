@@ -1,6 +1,6 @@
 var IngressGlyphs = require('../dist/ingress');
 var fs = require('fs');
-var sequences = IngressGlyphs.ingress.sequences;
+var sequences = IngressGlyphs.sequences;
 
 var trie = {};
 for (var i = 0; i < sequences.length; i++) {

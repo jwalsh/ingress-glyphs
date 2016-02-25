@@ -3,7 +3,7 @@ var Canvas = require('canvas'),
     size = 32;
 var fs = require('fs');
 
-var ingress = require('../dist/ingress').ingress;
+var ingress = require('../dist/ingress');
 
 // console.log(ingress);
 

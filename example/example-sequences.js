@@ -1,5 +1,5 @@
 var fs = require('fs');
-var ingress = require('../dist/ingress').ingress;
+var ingress = require('../dist/ingress');
 
 var seqorg = [1, 2, 3, 4, 5]
       .map(function(e, i, c) {

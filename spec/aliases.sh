@@ -29,6 +29,6 @@ do
     # warn if the alias is used more often than the canonical
     if [ $AC -gt $CC ]
     then
-        echo WARN: canonical $C $CC less than $A $AC
+        echo WARN: canonical $C \($CC\) less than $A \($AC\)
     fi
  done

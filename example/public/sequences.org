@@ -15,6 +15,7 @@
 | chaos | [[./chaos.png]] |
 | civilization | [[./civilization.png]] |
 | clear | [[./clear.png]] |
+| clear_all | [[./clear_all.png]] |
 | complex | [[./complex.png]] |
 | conflict | [[./conflict.png]] |
 | contemplate | [[./contemplate.png]] |
@@ -88,12 +89,14 @@
 | recharge | [[./recharge.png]] |
 | repair | [[./recharge.png]] |
 | resistance | [[./resist.png]] |
+| restraint | [[./restraint.png]] |
 | retreat | [[./retreat.png]] |
 | safety | [[./safety.png]] |
 | save | [[./save.png]] |
 | search | [[./search.png]] |
 | see | [[./see.png]] |
 | self | [[./self.png]] |
+| separate | [[./separate.png]] |
 | shapers | [[./shapers.png]] |
 | simple | [[./simple.png]] |
 | soul | [[./soul.png]] |
