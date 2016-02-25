@@ -88,6 +88,7 @@ civilization,war,chaos
 clear
 clear,mind,liberate,barrier,body
 clear,mind,open,mind
+clear_all
 clear_all,idea,past,present,future
 clear_all,mind,liberate,barrier,body
 clear_all,open,mind,begin
@@ -424,6 +425,7 @@ repair,soul,less,human,harm
 repeat,journey,outside
 resistance
 resistance,defend,shapers,danger
+restraint
 restraint,fear,avoid,danger
 restraint,path,gain,harmony
 retreat
@@ -453,6 +455,7 @@ seek,truth,see,future
 seek,xm,portal
 seek,xm,save,portal
 self
+separate
 separate,future,evolution
 separate,future,pursue
 separate,mind,body,discover,enlightenment
