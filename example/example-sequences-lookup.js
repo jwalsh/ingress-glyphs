@@ -6,7 +6,8 @@ var table = {};
 
 for (var i = 0; i < sequences.length; i++) {
   var sequence = sequences[i];
-  if (sequence.length >= 4) {
+  // Test for L6 and L7 portals as the majority case
+  if (sequence.length === 4) {
     var key = sequence
           .join(' ')
           .match(/\b(\w)/g)
