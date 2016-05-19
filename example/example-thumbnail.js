@@ -90,14 +90,20 @@ var render = function(glyph) {
 //render(ingress.glyphs['journey']);
 
 var html = '<body bgcolor="red">';
+var md = '';
+
 // console.log(ingress.glyphs);
 Object.keys(ingress.glyphs).map(function(e, i, c) {
   var glyph = ingress.glyphs[e];
-  console.log(glyph);
+  console.log(glyph.canonical);
   render(glyph);
+  md += '![' + glyph.canonical + '](./' + glyph.canonical + '.png)';
   html += '<img src="' + glyph.canonical + '.png" title="' +
     glyph.canonical + '" />';
 });
+
+console.log('public/example.md');
+fs.writeFile('public/example.md', md);
 
 console.log('public/example.html');
 fs.writeFile('public/example.html', html);
