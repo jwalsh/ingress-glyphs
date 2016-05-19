@@ -1,6 +1,5 @@
 describe("Module", function() {
-  var ingress = require('../dist/ingress').ingress;
-
+  var ingress = require('../dist/ingress');
   beforeEach(function() {
 
   });

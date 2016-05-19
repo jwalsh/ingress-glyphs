@@ -6,8 +6,8 @@
   "scripts": {
     "build": "./node_modules/.bin/babel-node lib/index.js",
     "jasmine": "node node_modules/jasmine/bin/jasmine.js",
-    "test": "snyk test && istanbul cover node_modules/jasmine/bin/jasmine.js",
-    "snyk-protect": "snyk protect",
+    "test": "./node_modules/.bin/snyk test && ./node_modules/.bin/istanbul cover node_modules/jasmine/bin/jasmine.js",
+    "snyk-protect": "./node_modules/.bin/snyk protect",
     "prepublish": "npm run snyk-protect"
   },
   "author": "Jason Walsh <j@wal.sh>",
@@ -20,6 +20,7 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.2",
     "gulp-util": "^3.0.7",
+    "istanbul": "^0.4.3",
     "mocha": "^2.4.5",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
