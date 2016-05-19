@@ -1,0 +1,12 @@
+version: v1.4.0
+ignore: {}
+patch:
+  'npm:hawk:20160119':
+    - karma > chokidar > fsevents > node-pre-gyp > request > hawk:
+        patched: '2016-05-19T18:35:54.470Z'
+  'npm:is-my-json-valid:20160118':
+    - karma > chokidar > fsevents > node-pre-gyp > request > har-validator > is-my-json-valid:
+        patched: '2016-05-19T18:35:54.470Z'
+  'npm:request:20160119':
+    - karma > chokidar > fsevents > node-pre-gyp > request:
+        patched: '2016-05-19T18:35:54.470Z'

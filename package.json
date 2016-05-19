@@ -6,7 +6,9 @@
   "scripts": {
     "build": "babel-node lib/index.js",
     "jasmine": "node node_modules/jasmine/bin/jasmine.js",
-    "test": "istanbul cover node_modules/jasmine/bin/jasmine.js"
+    "test": "snyk test && istanbul cover node_modules/jasmine/bin/jasmine.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Jason Walsh <j@wal.sh>",
   "license": "MIT",
@@ -29,6 +31,8 @@
     "jasmine": "^2.4.1",
     "karma": "^0.13.21",
     "lodash": "^4.3.0",
-    "react": "^0.14.7"
-  }
+    "react": "^0.14.7",
+    "snyk": "^1.14.3"
+  },
+  "snyk": true
 }
