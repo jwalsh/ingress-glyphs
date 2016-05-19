@@ -19,7 +19,8 @@ var seqorg = [1, 2, 3, 4, 5]
                 // console.log('INFO', b, '=', ingress.aliases[b]);
                 b = ingress.aliases[b];
               }
-              return a + '[[./' + b +  '.png]]';
+
+              return a + '![' + b + '](./' + b  + '.png)';
             }, '');
             h += ' |';
             // console.log(h);
@@ -29,5 +30,5 @@ var seqorg = [1, 2, 3, 4, 5]
       })
       .join(' ');
 
-console.log('public/sequences.org');
-fs.writeFile('public/sequences.org', seqorg);
+console.log('public/sequences.md');
+fs.writeFile('public/sequences.md', seqorg);

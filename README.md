@@ -167,77 +167,13 @@ module that can be consumed by Browserify.
 
 ## Sequences
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+| recharge present recharge human soul | ![recharge](./example/public/recharge.png)![present](./example/public/present.png)![recharge](./example/public/recharge.png)![human](./example/public/human.png)![soul](./example/public/soul.png) |
+| want truth pursue difficult path | ![want](./example/public/want.png)![truth](./example/public/truth.png)![pursue](./example/public/pursue.png)![difficult](./example/public/difficult.png)![path](./example/public/path.png) |
+| strong together attack together chaos | ![strong](./example/public/strong.png)![together](./example/public/together.png)![attack](./example/public/attack.png)![together](./example/public/together.png)![chaos](./example/public/chaos.png) |
+| strong together attack together destiny | ![strong](./example/public/strong.png)![together](./example/public/together.png)![attack](./example/public/attack.png)![together](./example/public/together.png)![destiny](./example/public/destiny.png) |
+| react rebel question shapers lie | ![react](./example/public/react.png)![rebel](./example/public/rebel.png)![question](./example/public/question.png)![shapers](./example/public/shapers.png)![lie](./example/public/lie.png) |
 
-
-<colgroup>
-<col  class="left" />
-
-<col  class="left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="left">harm progress pursue more war</td>
-<td class="left">![img](./example/public/harm.png)![img](./example/public/evolution.png)![img](./example/public/pursue.png)![img](./example/public/more.png)![img](./example/public/attack.png)</td>
-</tr>
-
-
-<tr>
-<td class="left">liberate portal liberate human mind</td>
-<td class="left">![img](./example/public/liberate.png)![img](./example/public/portal.png)![img](./example/public/liberate.png)![img](./example/public/human.png)![img](./example/public/mind.png)</td>
-</tr>
-
-
-<tr>
-<td class="left">escape body mind self want</td>
-<td class="left">![img](./example/public/escape.png)![img](./example/public/body.png)![img](./example/public/mind.png)![img](./example/public/self.png)![img](./example/public/want.png)</td>
-</tr>
-
-
-<tr>
-<td class="left">weak human destiny destroy civilization</td>
-<td class="left">![img](./example/public/weak.png)![img](./example/public/human.png)![img](./example/public/destiny.png)![img](./example/public/destroy.png)![img](./example/public/civilization.png)</td>
-</tr>
-
-
-<tr>
-<td class="left">human shapers together create destiny</td>
-<td class="left">![img](./example/public/human.png)![img](./example/public/shapers.png)![img](./example/public/together.png)![img](./example/public/create.png)![img](./example/public/destiny.png)</td>
-</tr>
-
-
-<tr>
-<td class="left">search destiny create pure future</td>
-<td class="left">![img](./example/public/search.png)![img](./example/public/destiny.png)![img](./example/public/create.png)![img](./example/public/pure.png)![img](./example/public/future.png)</td>
-</tr>
-
-
-<tr>
-<td class="left">xm path future journey harmony</td>
-<td class="left">![img](./example/public/xm.png)![img](./example/public/path.png)![img](./example/public/future.png)![img](./example/public/journey.png)![img](./example/public/harmony.png)</td>
-</tr>
-
-
-<tr>
-<td class="left">stay strong together defend resistance</td>
-<td class="left">![img](./example/public/stay.png)![img](./example/public/strong.png)![img](./example/public/together.png)![img](./example/public/defend.png)![img](./example/public/resist.png)</td>
-</tr>
-
-
-<tr>
-<td class="left">repair inside repair human soul</td>
-<td class="left">![img](./example/public/recharge.png)![img](./example/public/not.png)![img](./example/public/recharge.png)![img](./example/public/human.png)![img](./example/public/soul.png)</td>
-</tr>
-
-
-<tr>
-<td class="left">avoid chaos repair potential war</td>
-<td class="left">![img](./example/public/avoid.png)![img](./example/public/chaos.png)![img](./example/public/recharge.png)![img](./example/public/potential.png)![img](./example/public/attack.png)</td>
-</tr>
-</tbody>
-</table>
-
-# Data<a id="sec-5" name="sec-5"></a>
+# Data
 
 This pulls in data from:
 
