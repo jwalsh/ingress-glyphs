@@ -4,7 +4,7 @@ var fs = require('fs');
 
 // var bucket = 'cdn-jwalsh-production';
 var bucket = 'jwalsh-cdn';
-
+var distributionId = 'E189M6U4ZNWVL0'
 
 var s3 = new AWS.S3();
 // s3.listBuckets(function(error, data) {
@@ -40,10 +40,6 @@ var upload = function(name) {
           }
         });
     });
-
-
-
-
 };
 
 fs.readdir('example/public', function(err, items) {
@@ -56,5 +52,23 @@ fs.readdir('example/public', function(err, items) {
     .map(function(e, i, c) {
       upload(e);
     })
+  var cloudfront = new AWS.CloudFront();
+  console.log('Cloudfront Invalidation')
+  var params = {
+    DistributionId: 'E189M6U4ZNWVL0', /* required */
+    InvalidationBatch: { /* required */
+      CallerReference: (new Date).getTime().toString(),
+      Paths: { /* required */
+        Quantity: items.length,
+        Items: items.map(function(e, i, c) {
+          return '/' + e;
+        })
+      }
+    }
+  };
+  cloudfront.createInvalidation(params, function(err, data) {
+    if (err) console.log(err, err.stack); // an error occurred
+    else     console.log(data);           // successful response
+  });
 
 });

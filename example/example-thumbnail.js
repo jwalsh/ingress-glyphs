@@ -1,6 +1,6 @@
 var Canvas = require('canvas'),
     Image = Canvas.Image,
-    size = 40;
+    size = 80;
 var fs = require('fs');
 
 var ingress = require('../dist/ingress');
@@ -89,7 +89,7 @@ var render = function(glyph) {
 //console.log('Glyph: journey');
 //render(ingress.glyphs['journey']);
 
-var html = '<body bgcolor="red">';
+var html = '<body bgcolor="#69c">';
 var md = '';
 
 // console.log(ingress.glyphs);
@@ -98,7 +98,7 @@ Object.keys(ingress.glyphs).map(function(e, i, c) {
   console.log(glyph.canonical);
   render(glyph);
   md += '![' + glyph.canonical + '](./' + glyph.canonical + '.png)';
-  html += '<img src="' + glyph.canonical + '.png" title="' +
+  html += '<img style="margin: 5px" src="' + glyph.canonical + '.png" title="' +
     glyph.canonical + '" />';
 });
 
