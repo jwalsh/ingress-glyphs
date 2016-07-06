@@ -13,6 +13,7 @@
   "author": "Jason Walsh <j@wal.sh>",
   "license": "MIT",
   "devDependencies": {
+    "aws-sdk": "^2.4.5",
     "babel-cli": "^6.5.1",
     "broccoli": "^0.16.9",
     "browserify": "^13.0.0",
@@ -22,6 +23,8 @@
     "gulp-util": "^3.0.7",
     "istanbul": "^0.4.3",
     "mocha": "^2.4.5",
+    "synk": "0.0.2",
+    "underscore": "^1.8.3",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
