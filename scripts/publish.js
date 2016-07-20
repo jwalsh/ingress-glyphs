@@ -17,7 +17,7 @@ var s3 = new AWS.S3();
 
 var upload = function(name) {
   console.log('upload()', name);
-  var key = name;
+  var key = 'assets/' + name;
   var file = fs.readFileSync('example/public/' + name);
 
   s3.createBucket(
@@ -27,7 +27,7 @@ var upload = function(name) {
     function() {
       var params = {
         Bucket: bucket,
-        Key: name,
+        Key: key,
         Body: file.toString()
       };
       s3.putObject(
@@ -36,7 +36,7 @@ var upload = function(name) {
           if (err) {
             console.log(err);
           } else {
-            console.log("Successfully uploaded " + name + " to " + bucket);
+            console.log("Successfully uploaded " + key + " to " + bucket);
           }
         });
     });
@@ -61,7 +61,7 @@ fs.readdir('example/public', function(err, items) {
       Paths: { /* required */
         Quantity: items.length,
         Items: items.map(function(e, i, c) {
-          return '/' + e;
+          return '/assets/' + e;
         })
       }
     }
